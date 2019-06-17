@@ -13,6 +13,7 @@ import random
 import datetime as dt
 
 import gc
+import pickle
 
 from keras.models import Sequential
 from keras.layers import Dense
@@ -103,6 +104,7 @@ print("Preparing x_test...")
 for c in x_test.dtypes[x_test.dtypes == object].index.values:
     x_test[c] = (x_test[c] == True)
   
+pickle.dump((x_train, x_test, y_train), open("tmp.pickle", "wb"))
 
 #Implement the NN#
 ## Preprocessing

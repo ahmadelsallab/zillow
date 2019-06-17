@@ -17,3 +17,5 @@ with open(submission_file, 'r') as csvfile:
         if(len(row) == 0):
             print('Empty row')
     print(count)
+    
+    

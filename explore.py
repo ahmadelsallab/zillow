@@ -15,3 +15,4 @@ print(labels.shape)
 #data = pd.read_csv("..\\..\\dat\\properties_2016.csv", parse_dates=["transactiondate"])
 data = pd.read_csv("..\\..\\dat\\properties_2016.csv")
 print(data.shape)
+
