@@ -1,0 +1,5 @@
+xgboost easiest install:
+download xgboost whl file from here (make sure to match your python version and system architecture, e.g. "xgboost-0.6-cp35-cp35m-win_amd64.whl" for python 3.5 on 64-bit machine)
+open command prompt
+cd to your Downloads folder (or wherever you saved the whl file)
+pip install xgboost-0.6-cp35-cp35m-win_amd64.whl (or whatever your whl file is named)
